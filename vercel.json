@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "build.sh",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "public"
+        }
+      }
+    ],
+    "env": {
+      "DOOM_WAD_URL": "@doom_wad_url"
+    }
+  }
+  
